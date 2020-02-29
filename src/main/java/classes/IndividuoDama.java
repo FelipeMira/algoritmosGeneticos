@@ -25,7 +25,7 @@ public class IndividuoDama {
         this.geracao = 0;
 
         for(int i = 0; i < this.espacos; i++){
-            this.cromossomo.add(String.valueOf(new Random().nextInt((int) (this.espacos + 1))));
+            this.cromossomo.add(String.valueOf(new Random().nextInt((int)Math.round(this.espacos)) + 1));
         }
         this.avaliar();
     }
@@ -43,8 +43,10 @@ public class IndividuoDama {
                     posicaoDamaValidar = Integer.parseInt(j + cromossomo.get(j));
                     if((posicaoDamaValidar - ((i - j) * 9) == posicaoDama) || (posicaoDamaValidar + ((i - j) * 9) == posicaoDama)){
                         nota -= 1.0;
-                    }else if((posicaoDamaValidar - ((i - j) * 10) == posicaoDama) || (posicaoDamaValidar + ((i - j) * 10) == posicaoDama)){
+                    }else if(Integer.parseInt(cromossomo.get(j)) == Integer.parseInt(cromossomo.get(i))){
                         nota -= 1.0;
+                    /*}else if((posicaoDamaValidar - ((i - j) * 10) == posicaoDama) || (posicaoDamaValidar + ((i - j) * 10) == posicaoDama)){
+                        nota -= 1.0;*/
                     }else if((posicaoDamaValidar - ((i - j) * 11) == posicaoDama) || (posicaoDamaValidar + ((i - j) * 11) == posicaoDama)){
                         nota -= 1.0;
                     }

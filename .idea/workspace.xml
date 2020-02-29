@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caf78404-1cd3-45c9-b47c-55ae010d0fa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algoritmo/AlgoritmoGeneticoDamas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classes/GeracaoDamas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classes/IndividuoDama.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/executor/RunnerDamas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graficos/GraficoDamas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoritmo/AlgoritmoGeneticoJGAP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritmo/AlgoritmoGeneticoJGAP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classes/Individuo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/Individuo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/executor/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/executor/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Executor/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Executor/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Executor/RunnerJGAP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Executor/RunnerJGAP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algoritmo/AlgoritmoGeneticoJGAP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algoritmo/AlgoritmoGeneticoJGAP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/IndividuoDama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/IndividuoDama.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/executor/RunnerDamas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/executor/RunnerDamas.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,8 +118,16 @@
       <workItem from="1581263271195" duration="27677000" />
       <workItem from="1581295540972" duration="3162000" />
       <workItem from="1581365018649" duration="6338000" />
-      <workItem from="1582972876891" duration="6313000" />
+      <workItem from="1582972876891" duration="7366000" />
     </task>
+    <task id="LOCAL-00001" summary="Adicionando desafio das 8 damas">
+      <created>1582979402097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582979402097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +145,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adicionando desafio das 8 damas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando desafio das 8 damas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
