@@ -82,7 +82,7 @@ public class AlgoritmoGeneticoJGAP {
 
         try {
             //true primeiro faz a selecao para depois fazer mutacao ou crossover
-            configuration.addNaturalSelector(new BestChromosomesSelector(configuration, 0.4), true);
+            configuration.addNaturalSelector(new BestChromosomesSelector(configuration, 0.213), true);
             configuration.setRandomGenerator(new StockRandomGenerator());
             configuration.addGeneticOperator(new CrossoverOperator(configuration));
             configuration.addGeneticOperator(new SwappingMutationOperator(configuration, this.taxaMutacao));

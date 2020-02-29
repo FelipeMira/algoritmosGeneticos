@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caf78404-1cd3-45c9-b47c-55ae010d0fa2" name="Default Changelist" comment="" />
+    <list default="true" id="caf78404-1cd3-45c9-b47c-55ae010d0fa2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algoritmo/AlgoritmoGeneticoDamas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes/GeracaoDamas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes/IndividuoDama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/executor/RunnerDamas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graficos/GraficoDamas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algoritmo/AlgoritmoGeneticoJGAP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritmo/AlgoritmoGeneticoJGAP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/Individuo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/Individuo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/executor/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/executor/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Executor/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Executor/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Executor/RunnerJGAP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Executor/RunnerJGAP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algoritmo/AlgoritmoGeneticoJGAP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algoritmo/AlgoritmoGeneticoJGAP.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,7 +40,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1XXH1uXJNF0AcINiMDfJpMUnH0G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -34,10 +53,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Executor" />
       <recent name="graficos" />
+      <recent name="executor" />
+      <recent name="classes" />
       <recent name="algoritmo" />
-      <recent name="historico" />
+      <recent name="Executor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -52,10 +72,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RunnerJGAP">
+  <component name="RunManager" selected="Application.RunnerDamas">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="executor.Runner" />
       <module name="algoritmosgeneticos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerDamas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="executor.RunnerDamas" />
+      <module name="algoritmosgeneticos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="executor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunnerDamas" />
         <item itemvalue="Application.RunnerJGAP" />
         <item itemvalue="Application.Runner" />
       </list>
@@ -92,10 +126,37 @@
       <updated>1581186877010</updated>
       <workItem from="1581186879409" duration="12448000" />
       <workItem from="1581263271195" duration="27677000" />
+      <workItem from="1581295540972" duration="3162000" />
+      <workItem from="1581365018649" duration="6338000" />
+      <workItem from="1582972876891" duration="6313000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classes/IndividuoDama.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

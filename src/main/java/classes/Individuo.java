@@ -55,6 +55,7 @@ public class Individuo {
         this.espacoUsado = somaEspacos;
     }
 
+    @SuppressWarnings("DuplicatedCode")
     public List<Individuo> crossover(Individuo outroIndividuo){
         int corte = (int) Math.round(Math.random() * this.cromossomo.size());
         //System.out.println("Corte: " + corte);

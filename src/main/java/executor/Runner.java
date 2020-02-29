@@ -26,7 +26,7 @@ public class Runner {
             valores.add(produto.getValor());
         }
 
-        Double limite = 3.5;
+        Double limite = 3.0;
         Double taxaMutacao = 0.05;
         int quantidadeGeracoes = 100;
 
