@@ -1,6 +1,5 @@
 package algoritmo;
 
-import classes.Individuo;
 import classes.IndividuoDama;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -84,7 +83,7 @@ public class AlgoritmoGeneticoDamas {
             ateSolucao = Optional.of(false);
         }
         do{
-            for(int geracao = 0; geracao < (ateSolucao.isPresent()? ateSolucao.get()? 1 : numeroGeracoes : numeroGeracoes); geracao++){
+            for(int geracao = 0; geracao < (ateSolucao.filter(aBoolean -> aBoolean).map(aBoolean -> 1).orElse(numeroGeracoes)); geracao++){
                 Double soma = this.somaAvaliacoes();
                 List<IndividuoDama> novaPopulacao = new ArrayList<>();
 

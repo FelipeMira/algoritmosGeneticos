@@ -15,7 +15,7 @@ public class RunnerDamas {
     public static void main(String[] args){
         List<String> listaDamas = new ArrayList<>();
 
-        Double numeroDamas = 8.0;
+        Double numeroDamas = 11.0;
 
         gerarListaDamas(listaDamas, numeroDamas);
         //gerarListaProdutosPeloDB(listaProduto);
@@ -28,11 +28,12 @@ public class RunnerDamas {
 
         List<String> resultado = algoritmoGeneticoDamas.resolver(taxaMutacao, quantidadeGeracoes, numeroDamas, numeroDamas, Optional.of(true));
 
-
+        /*
         GraficoDamas g = new GraficoDamas("Algoritmo Genetico", "Evolucao das solucoes", algoritmoGeneticoDamas.getMelhoresCromossomos());
         g.pack();
         RefineryUtilities.centerFrameOnScreen(g);
         g.setVisible(true);
+        */
 
     }
 

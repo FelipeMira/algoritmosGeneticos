@@ -36,18 +36,17 @@ public class IndividuoDama {
         int posicaoDamaValidar;
 
         for(int i = 0; i < cromossomo.size(); i++){
-            posicaoDama = Integer.parseInt(i + cromossomo.get(i));
+            posicaoDama = Integer.parseInt(cromossomo.get(i));
 
             for(int j = 0; j < cromossomo.size(); j++){
                 if(j != i){
-                    posicaoDamaValidar = Integer.parseInt(j + cromossomo.get(j));
-                    if((posicaoDamaValidar - ((i - j) * 9) == posicaoDama) || (posicaoDamaValidar + ((i - j) * 9) == posicaoDama)){
+                    posicaoDamaValidar = Integer.parseInt(cromossomo.get(j));
+
+                    if(posicaoDamaValidar == (((i + 1) < (j + 1))? posicaoDama + ((j + 1) - (i + 1)) : posicaoDama - ((i + 1) - (j + 1)))){
                         nota -= 1.0;
-                    }else if(Integer.parseInt(cromossomo.get(j)) == Integer.parseInt(cromossomo.get(i))){
+                    }else if(Integer.parseInt(cromossomo.get(j)) == Integer.parseInt(cromossomo.get(i))) {
                         nota -= 1.0;
-                    /*}else if((posicaoDamaValidar - ((i - j) * 10) == posicaoDama) || (posicaoDamaValidar + ((i - j) * 10) == posicaoDama)){
-                        nota -= 1.0;*/
-                    }else if((posicaoDamaValidar - ((i - j) * 11) == posicaoDama) || (posicaoDamaValidar + ((i - j) * 11) == posicaoDama)){
+                    }else if(posicaoDamaValidar == (((i + 1) > (j + 1))? posicaoDama - ((j + 1) - (i + 1)) : posicaoDama + ((i + 1) - (j + 1)))){
                         nota -= 1.0;
                     }
                 }
