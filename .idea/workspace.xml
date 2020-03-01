@@ -4,7 +4,6 @@
     <list default="true" id="caf78404-1cd3-45c9-b47c-55ae010d0fa2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/algoritmo/AlgoritmoGeneticoDamas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritmo/AlgoritmoGeneticoDamas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classes/IndividuoDama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/IndividuoDama.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/executor/RunnerDamas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/executor/RunnerDamas.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,7 +118,7 @@
       <workItem from="1581263271195" duration="27677000" />
       <workItem from="1581295540972" duration="3162000" />
       <workItem from="1581365018649" duration="6338000" />
-      <workItem from="1582972876891" duration="10622000" />
+      <workItem from="1582972876891" duration="16343000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionando desafio das 8 damas">
       <created>1582979402097</created>
@@ -135,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582980544044</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajustando Bug na avaliacao para funcionar em n rainhas">
+      <created>1583025928828</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583025928828</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +163,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adicionando desafio das 8 damas" />
     <MESSAGE value="Ajustes bugs inicializar damas e acima de 9 damas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes bugs inicializar damas e acima de 9 damas" />
+    <MESSAGE value="Ajustando Bug na avaliacao para funcionar em n rainhas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustando Bug na avaliacao para funcionar em n rainhas" />
   </component>
 </project>

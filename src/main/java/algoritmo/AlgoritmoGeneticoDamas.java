@@ -67,9 +67,9 @@ public class AlgoritmoGeneticoDamas {
 
     private void visualizarGeracao(){
         IndividuoDama melhorIndividuoAtual = encontrarMelhorIndividuo();
-        System.out.println("G: " + melhorIndividuoAtual.getGeracao()
+        /*System.out.println("G: " + melhorIndividuoAtual.getGeracao()
             + " Valor: " + melhorIndividuoAtual.getNotaAvaliacao()
-            + " Cromossomo: " + melhorIndividuoAtual.getCromossomo());
+            + " Cromossomo: " + melhorIndividuoAtual.getCromossomo());*/
         this.melhoresCromossomos.add(melhorIndividuoAtual);
     }
 
@@ -109,9 +109,10 @@ public class AlgoritmoGeneticoDamas {
 
         }while(melhorIndividuo.getNotaAvaliacao() < 100.0 && ateSolucao.orElse(false));
 
-        System.out.println("Melhor solucao G -> " + this.melhorIndividuo.getGeracao()
+
+        /*System.out.println("Melhor solucao G -> " + this.melhorIndividuo.getGeracao()
                 + " Valor: " + this.melhorIndividuo.getNotaAvaliacao()
-                + " Cromossomo: " + this.melhorIndividuo.getCromossomo());
+                + " Cromossomo: " + this.melhorIndividuo.getCromossomo());*/
         return this.melhorIndividuo.getCromossomo();
     }
 
